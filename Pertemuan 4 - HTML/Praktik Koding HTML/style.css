@@ -1,0 +1,15 @@
+table, tr, td{
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+th {
+    background-color: bisque;
+}
+
+body {
+    background-color: gainsboro;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+    padding-top: 20px;
+}
