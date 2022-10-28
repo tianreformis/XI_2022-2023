@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>Kalkulator Sederhana</title>
+</head>
+<body>
+    <b>Angka Pertama    =</b> <input type="text" id="angka1"><br>
+    <b>Angka Kedua      =</b> <input type="text" id="angka2"><br>
+    <button type="button" onclick="hitungTambah()">Tambah</button>
+    <h2>Hasil</h2>
+    <p id="hasildisini"></p>    
+    <script>
+       function hitungTambah(){
+            angka1 =document.getElementById("angka1").value;
+            angka2 =document.getElementById("angka2").value;
+            let hasiltambah = eval(angka1)+eval(angka2);
+            document.getElementById("hasildisini").innerHTML=hasiltambah;
+       }
+    </script> 
+</body>
+</html>

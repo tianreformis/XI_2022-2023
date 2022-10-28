@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <title>Simple Input Output</title>
+</head>
+<body>
+    <b>Masukkan Nama</b>
+    <input type="text" id="txtNama">
+    <br>
+    <b>Masukkan Kelas</b>
+    <input type="text" id="txtKelas">
+    <br>
+    <b>Masukkan TB</b>
+    <input type="number" id="txtKelas">
+    <br>
+    <button type="button" onclick="submitData()">Submit</button><br>
+    <h3>Tampil Data</h3>
+    <p id="tampilData"></p>
+    <script>
+        function submitData(){
+            nama = document.getElementById("txtNama").value;
+            kelas = document.getElementById("txtKelas").value;
+            var tampilNama = nama; 
+            var tampilkelas = kelas;  
+            document.getElementById("tampilData").innerHTML=tampilNama+"<br>"+tampilkelas;
+        }
+    </script>
+</body>
+</html>
