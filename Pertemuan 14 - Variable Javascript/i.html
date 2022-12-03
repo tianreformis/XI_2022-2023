@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>greet</title>
+</head>
+
+<body>
+    <input type="text"  id="angka1" />
+    <button type="button" onclick="sayGreeting()">Click Me</button>
+    <p id="hasil"></p>
+    <script>
+        function sayGreeting(){
+            angka1 = document.getElementById("angka1").value;
+            var hasil=eval(angka1);            
+            document.getElementById ("hasil").innerHTML=hasil+19;
+                        
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    color : white;
+    background-color: rgb(143, 210, 143);
+    border-style: solid;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg');
+    background-size: cover;
+}
